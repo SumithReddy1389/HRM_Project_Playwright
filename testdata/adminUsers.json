@@ -1,0 +1,9 @@
+[
+  {
+    "username": "newadminuser",
+    "password": "Password@123",
+    "employeeName": "Fitria Nur Aini",
+    "userRole": "Admin",
+    "status": "Enabled"
+  }
+]

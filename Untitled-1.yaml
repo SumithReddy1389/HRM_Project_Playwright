@@ -1,0 +1,13 @@
+CI/ CD
+
+Developer pushes code
+        ↓
+GitHub Actions starts
+        ↓
+Install Node + Playwright
+        ↓
+Run tests (based on ENV)
+        ↓
+Generate Allure report
+        ↓
+Upload report
