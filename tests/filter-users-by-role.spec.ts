@@ -25,7 +25,7 @@ test.describe("User Management - Filter by Role", () => {
     });
   });
 
-  test.only("Filter users by ESS role", async ({ page }) => {
+  test("Filter users by ESS role", async ({ page }) => {
     await allure.step("Filtering users by ESS role", async () => {
       await adminPage.filterByRolePOM("ESS");
       const screenshotPath = await page.screenshot({
